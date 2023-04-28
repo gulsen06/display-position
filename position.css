@@ -1,0 +1,79 @@
+body {
+  height: 100vh;
+}
+.main {
+  background-color: rgb(176, 235, 210);
+  width: 90%;
+  height: 100vh;
+  padding: 5px;
+  margin: 30px;
+  /* position: relative; */
+}
+.box1 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(230, 208, 228);
+  position: relative;
+  z-index: 4;
+}
+.box2 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(233, 138, 29);
+  /* position: relative; */
+  /* top: 20px;
+  left: 30px; */
+  /* margin-top: 30px;
+  margin-left: 40px; */
+  position: relative;
+  bottom: 50px;
+  z-index: 5;
+}
+
+.box3 {
+  background-color: chartreuse;
+  width: 100px;
+  height: 100px;
+  /* border-radius: 20px; */
+
+  /* position: absolute;
+  top: 0;
+  left: 70px; */
+  /* position: fixed;
+  top: 20px;
+  bottom: 50px;
+  right: 0; */
+  position: relative;
+  bottom: 70px;
+  z-index: 6;
+}
+#icerde {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(255, 80, 80);
+  font-size: 0.5rem;
+  /* position: absolute;
+  top: 0;
+  right: 0; */
+  position: sticky;
+  top: 20px;
+  left: 40px;
+}
+#icerde2 {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(180, 27, 27);
+  font-size: 0.5rem;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  color: yellow;
+}
+p {
+  background-color: magenta;
+  border-radius: 25px;
+  padding: 10px;
+  box-sizing: border-box;
+  position: sticky;
+  top: 80px;
+}
